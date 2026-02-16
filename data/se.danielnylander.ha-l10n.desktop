@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Home Assistant L10n
+Comment=Home Assistant translation status dashboard
+Exec=ha-l10n
+Icon=se.danielnylander.ha-l10n
+Categories=Utility;
