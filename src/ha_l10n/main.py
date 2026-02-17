@@ -37,14 +37,14 @@ class MainWindow(Adw.ApplicationWindow):
         box.append(self.status_label)
         
     def show_about(self, action, param):
-        about = Adw.AboutWindow(transient_for=self)
+        about = Adw.AboutDialog()
         about.set_application_name(_("Home Assistant L10n"))
         about.set_application_icon("se.danielnylander.ha-l10n")
         about.set_developer_name("Daniel Nylander")
         about.set_version("0.1.0")
         about.set_website("https://github.com/yeager/ha-l10n")
         about.set_translator_credits(_("translator-credits"))
-        about.present()
+        about.present(self)
         
     def show_shortcuts(self, action, param):
         builder = Gtk.Builder()

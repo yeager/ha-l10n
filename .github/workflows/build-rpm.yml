@@ -74,10 +74,6 @@ jobs:
           mkdir -p %{buildroot}%{_datadir}/icons/hicolor/scalable/apps
           cp data/icons/se.danielnylander.ha-l10n.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/
           
-          # Install man page
-          mkdir -p %{buildroot}%{_mandir}/man1
-          cp data/man/ha-l10n.1 %{buildroot}%{_mandir}/man1/
-          
           %files
           %license LICENSE
           %doc README.md
@@ -86,7 +82,6 @@ jobs:
           %{_bindir}/ha-l10n
           %{_datadir}/applications/se.danielnylander.ha-l10n.desktop
           %{_datadir}/icons/hicolor/scalable/apps/se.danielnylander.ha-l10n.svg
-          %{_mandir}/man1/ha-l10n.1*
           
           %changelog
           * $(date '+%a %b %d %Y') Daniel Nylander <daniel@danielnylander.se> - $VERSION-1
