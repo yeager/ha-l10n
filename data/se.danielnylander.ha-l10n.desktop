@@ -1,7 +1,11 @@
 [Desktop Entry]
 Type=Application
 Name=Home Assistant L10n
+GenericName=Translation Status Dashboard
 Comment=Home Assistant translation status dashboard
 Exec=ha-l10n
 Icon=se.danielnylander.ha-l10n
-Categories=Utility;
+Terminal=false
+Categories=Utility;Translation;
+StartupNotify=true
+Keywords=home-assistant;translation;localization;
