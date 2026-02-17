@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ha-l10n\n"
+"Project-Id-Version: ha-l10n 0.2.0\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-17 17:48+0100\n"
+"POT-Creation-Date: 2026-02-17 19:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,343 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/ha_l10n/main.py:23 src/ha_l10n/main.py:41
+#: src/ha_l10n/connection.py:58
+msgid "Connected"
+msgstr ""
+
+#: src/ha_l10n/connection.py:60
+#, python-format
+msgid "HTTP Error: %s"
+msgstr ""
+
+#: src/ha_l10n/connection.py:62
+#, python-format
+msgid "Connection failed: %s"
+msgstr ""
+
+#: src/ha_l10n/connection.py:77
+msgid "Connect to Home Assistant"
+msgstr ""
+
+#: src/ha_l10n/connection.py:97
+msgid "Saved Instances"
+msgstr ""
+
+#: src/ha_l10n/connection.py:100
+msgid "Profile"
+msgstr ""
+
+#: src/ha_l10n/connection.py:103 src/ha_l10n/connection.py:206
+msgid "New connection"
+msgstr ""
+
+#: src/ha_l10n/connection.py:111
+msgid "Connection Details"
+msgstr ""
+
+#: src/ha_l10n/connection.py:114
+msgid "Name"
+msgstr ""
+
+#: src/ha_l10n/connection.py:117
+msgid "URL"
+msgstr ""
+
+#: src/ha_l10n/connection.py:121
+msgid "Long-Lived Access Token"
+msgstr ""
+
+#: src/ha_l10n/connection.py:129
+msgid "Test Connection"
+msgstr ""
+
+#: src/ha_l10n/connection.py:133
+msgid "Save Profile"
+msgstr ""
+
+#: src/ha_l10n/connection.py:138 src/ha_l10n/main.py:50
+msgid "Connect"
+msgstr ""
+
+#: src/ha_l10n/connection.py:149
+msgid "Delete Profile"
+msgstr ""
+
+#: src/ha_l10n/connection.py:172
+msgid "Testing..."
+msgstr ""
+
+#: src/ha_l10n/connection.py:196
+msgid "Profile saved"
+msgstr ""
+
+#: src/ha_l10n/connection.py:210
+msgid "Profile deleted"
+msgstr ""
+
+#: src/ha_l10n/connection.py:215
+msgid "Connecting..."
+msgstr ""
+
+#: src/ha_l10n/editor.py:41
+msgid "Target language:"
+msgstr ""
+
+#: src/ha_l10n/editor.py:50
+msgid "Load"
+msgstr ""
+
+#: src/ha_l10n/editor.py:58
+msgid "Save"
+msgstr ""
+
+#: src/ha_l10n/editor.py:79 src/ha_l10n/export.py:22 src/ha_l10n/strings.py:132
+msgid "Key"
+msgstr ""
+
+#: src/ha_l10n/editor.py:84 src/ha_l10n/export.py:22 src/ha_l10n/strings.py:148
+msgid "Status"
+msgstr ""
+
+#: src/ha_l10n/editor.py:108 src/ha_l10n/strings.py:137
+msgid "Source (English)"
+msgstr ""
+
+#: src/ha_l10n/editor.py:125 src/ha_l10n/export.py:22
+#: src/ha_l10n/strings.py:142
+msgid "Target"
+msgstr ""
+
+#: src/ha_l10n/editor.py:146
+msgid "Copy source to target"
+msgstr ""
+
+#: src/ha_l10n/editor.py:151
+msgid "Translated"
+msgstr ""
+
+#: src/ha_l10n/editor.py:151
+msgid "Fuzzy"
+msgstr ""
+
+#: src/ha_l10n/editor.py:151
+msgid "Untranslated"
+msgstr ""
+
+#: src/ha_l10n/editor.py:271
+#, python-format
+msgid "Saved translations to %s"
+msgstr ""
+
+#: src/ha_l10n/entities.py:29
+msgid "Filter entities..."
+msgstr ""
+
+#: src/ha_l10n/entities.py:47
+msgid "Entity ID"
+msgstr ""
+
+#: src/ha_l10n/entities.py:53
+msgid "Friendly Name"
+msgstr ""
+
+#: src/ha_l10n/entities.py:72
+msgid "Select an entity"
+msgstr ""
+
+#: src/ha_l10n/entities.py:113
+msgid "unknown"
+msgstr ""
+
+#: src/ha_l10n/entities.py:155
+#, python-format
+msgid "%d entities in domain '%s'"
+msgstr ""
+
+#: src/ha_l10n/entities.py:171 src/ha_l10n/export.py:198
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#: src/ha_l10n/export.py:22
+msgid "Source"
+msgstr ""
+
+#: src/ha_l10n/export.py:118
+msgid "Export"
+msgstr ""
+
+#: src/ha_l10n/export.py:136
+msgid "Export Format"
+msgstr ""
+
+#: src/ha_l10n/export.py:139
+msgid "Format"
+msgstr ""
+
+#: src/ha_l10n/export.py:141
+msgid "CSV Report"
+msgstr ""
+
+#: src/ha_l10n/export.py:141
+msgid "JSON Report"
+msgstr ""
+
+#: src/ha_l10n/export.py:142
+msgid "HA JSON Translation"
+msgstr ""
+
+#: src/ha_l10n/export.py:142
+msgid "POT File"
+msgstr ""
+
+#: src/ha_l10n/export.py:142
+msgid "PO File"
+msgstr ""
+
+#: src/ha_l10n/export.py:151
+msgid "Export..."
+msgstr ""
+
+#: src/ha_l10n/export.py:194
+#, python-format
+msgid "Exported to %s"
+msgstr ""
+
+#: src/ha_l10n/main.py:36 src/ha_l10n/main.py:202
 msgid "Home Assistant L10n"
 msgstr ""
 
-#: src/ha_l10n/main.py:34 src/ha_l10n/main.py:143
+#: src/ha_l10n/main.py:57
+msgid "Not connected"
+msgstr ""
+
+#: src/ha_l10n/main.py:63
+msgid "Scan integrations"
+msgstr ""
+
+#: src/ha_l10n/main.py:69
+msgid "Lang:"
+msgstr ""
+
+#: src/ha_l10n/main.py:83
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ha_l10n/main.py:84
+msgid "About"
+msgstr ""
+
+#: src/ha_l10n/main.py:98
+msgid "Entities"
+msgstr ""
+
+#: src/ha_l10n/main.py:104
+msgid "Strings"
+msgstr ""
+
+#: src/ha_l10n/main.py:111
+msgid "Editor"
+msgstr ""
+
+#: src/ha_l10n/main.py:119
+msgid "Scanner"
+msgstr ""
+
+#: src/ha_l10n/main.py:125
+msgid "Preview"
+msgstr ""
+
+#: src/ha_l10n/main.py:142
 msgid "Ready"
 msgstr ""
 
-#: src/ha_l10n/main.py:46
+#: src/ha_l10n/main.py:174 src/ha_l10n/main.py:175
+#, python-format
+msgid "Connected to %s"
+msgstr ""
+
+#: src/ha_l10n/main.py:195
+#, python-format
+msgid "Strings: %d | Translated: %d | Coverage: %.0f%%"
+msgstr ""
+
+#: src/ha_l10n/main.py:198
+#, python-format
+msgid "Loaded integration '%s'"
+msgstr ""
+
+#: src/ha_l10n/main.py:209
 msgid "translator-credits"
 msgstr ""
 
-#: src/ha_l10n/main.py:141
+#: src/ha_l10n/main.py:277
 msgid "Refreshing..."
+msgstr ""
+
+#: src/ha_l10n/main.py:280
+msgid "Refreshed"
+msgstr ""
+
+#: src/ha_l10n/preview.py:27
+msgid "Font size:"
+msgstr ""
+
+#: src/ha_l10n/preview.py:117
+msgid "No entities loaded. Connect to HA and refresh."
+msgstr ""
+
+#: src/ha_l10n/scanner.py:101
+msgid "No directory selected"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:107
+msgid "Open Folder..."
+msgstr ""
+
+#: src/ha_l10n/scanner.py:111
+msgid "Scan"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:129
+msgid "Integration"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:130
+msgid "strings.json"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:131
+msgid "translations/"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:132
+msgid "Languages"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:133
+msgid "Coverage"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:146
+msgid "Select HA config or custom_components directory"
+msgstr ""
+
+#: src/ha_l10n/scanner.py:171
+#, python-format
+msgid "Found %d integrations"
+msgstr ""
+
+#: src/ha_l10n/strings.py:111
+msgid "No strings loaded"
+msgstr ""
+
+#: src/ha_l10n/strings.py:187
+#, python-format
+msgid "%d strings"
+msgstr ""
+
+#: src/ha_l10n/strings.py:190
+#, python-format
+msgid "Coverage: %.0f%%"
 msgstr ""
