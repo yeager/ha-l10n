@@ -37,7 +37,7 @@ jobs:
           Name:           ha-l10n
           Version:        VERSION_PLACEHOLDER
           Release:        1
-          Summary:        
+          Summary:        Home Assistant translation status dashboard
           License:        GPL-3.0-or-later
           URL:            https://github.com/yeager/ha-l10n
           Source0:        %{name}-%{version}.tar.gz
