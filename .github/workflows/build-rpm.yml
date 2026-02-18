@@ -83,7 +83,7 @@ jobs:
           rpmbuild -ba ~/rpmbuild/SPECS/ha-l10n.spec
 
       - name: Upload RPM to release
-        if: github.event_name == 'release'
+        if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
