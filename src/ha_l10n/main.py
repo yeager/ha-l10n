@@ -202,11 +202,12 @@ class MainWindow(Adw.ApplicationWindow):
         about.set_application_name(_("Home Assistant L10n"))
         about.set_application_icon("se.danielnylander.ha-l10n")
         about.set_developer_name("Daniel Nylander")
+        about.set_developers(["Daniel Nylander <daniel@danielnylander.se>"])
         about.set_version(__version__)
         about.set_website("https://github.com/yeager/ha-l10n")
         about.set_issue_url("https://github.com/yeager/ha-l10n/issues")
         about.set_license_type(Gtk.License.GPL_3_0)
-        about.set_translator_credits(_("translator-credits"))
+        about.set_translator_credits(_("Translate this app: https://www.transifex.com/danielnylander/ha-l10n/"))
         about.present(self)
 
     def show_shortcuts(self, action, param):
