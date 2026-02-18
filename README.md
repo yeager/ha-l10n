@@ -1,5 +1,7 @@
 # Home Assistant L10n
 
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/yeager/ha-l10n/releases)
+
 ## Screenshot
 
 ![Home Assistant L10n](screenshots/main.png)
