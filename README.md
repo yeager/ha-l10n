@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Home Assistant L10n](screenshots/main.png)
+<img width="1341" height="759" alt="image" src="https://github.com/user-attachments/assets/0a672acc-c4a8-47dc-9ed6-2033f64ddc62" />
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Transifex](https://img.shields.io/badge/Transifex-translate-green.svg)](https://www.transifex.com/danielnylander/ha-l10n/)
