@@ -12,7 +12,12 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, GLib
 
+from ha_l10n import __version__
+
 _ = gettext.gettext
+
+APP_LABEL = "HA L10n"
+AUTHOR = "Daniel Nylander"
 
 
 def export_csv(data, filepath):
@@ -27,6 +32,8 @@ def export_csv(data, filepath):
                 item.get('target', ''),
                 item.get('status', ''),
             ])
+        writer.writerow([])
+        writer.writerow([f"{APP_LABEL} v{__version__} — {AUTHOR}"])
 
 
 def export_json_report(data, filepath):
