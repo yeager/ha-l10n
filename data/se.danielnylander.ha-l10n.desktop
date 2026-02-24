@@ -1,5 +1,6 @@
 [Desktop Entry]
 Type=Application
+StartupWMClass=se.danielnylander.ha-l10n
 Name=Home Assistant L10n
 GenericName=Translation Status Dashboard
 Comment=Home Assistant translation status dashboard
